@@ -39,6 +39,11 @@ TARGET_SCREEN_WIDTH := 1080
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+## Sakura Flags
+SAKURA_MAINTAINER := MODEDGES
+TARGET_BOOT_ANIMATION_RES := 1080
+SAKURA_BUILD_TYPE := gapps
+
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_d1
 PRODUCT_DEVICE := d1
